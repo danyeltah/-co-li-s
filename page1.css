@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 70px; 
+    height: auto;
+    z-index: 15;
+}
+
+
+.medaille {
+    position: absolute;
+    top: 0px; 
+    right: 20px; 
+    width: 70px;
+    height: auto;
+    z-index: 15;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    padding: 10px;
+    background-color:#2c3e50;
+    opacity: 0.9;
+   
+}
+
+
+
+.header h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1;
+}
+
+.footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+}
+
+.footer nav ul li {
+    margin: 0 60px;
+}
+
+.footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.caca {
+    position: absolute;
+    top: 400px;
+    opacity: 0.9;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 99%;
+    height: auto;
+}
